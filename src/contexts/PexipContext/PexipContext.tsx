@@ -25,8 +25,6 @@ const PexipContextProvider = (props: any): JSX.Element => {
   const [state, dispatch] = useReducer(pexipReducer, initialState)
 
   const handleRemoteStream = (remoteStream: MediaStream) => {
-    console.log('handleRemoteStream')
-    console.log(remoteStream)
     dispatch({
       type: PexipActionType.RemoteStream,
       body: {
