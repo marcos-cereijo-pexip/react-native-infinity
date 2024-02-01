@@ -52,6 +52,10 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "dependencies": {
+    "@pexip/infinity-api": "^17.3.0",
+    "react-native-webrtc": "^118.0.1"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
@@ -77,10 +81,8 @@
     "@types/react": "17.0.21"
   },
   "peerDependencies": {
-    "@pexip/infinity-api": "^17.3.0",
     "react": "*",
-    "react-native": "*",
-    "react-native-webrtc": "^118.0.1"
+    "react-native": "*"
   },
   "workspaces": [
     "*"
