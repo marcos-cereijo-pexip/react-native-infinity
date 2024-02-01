@@ -1,3 +1,5 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b)
-}
+import type { RemoteVideo } from './components/RemoteVideo'
+import type { SelfView } from './components/SelfView'
+import { PexipContextProvider, usePexipContext } from './contexts/PexipContext/PexipContext'
+
+export { PexipContextProvider, usePexipContext, type SelfView, type RemoteVideo }
